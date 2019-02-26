@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+删除页面
+
+<form action="/deletehandle/" method="post">
+    {% csrf_token %}
+    请输入姓名<input type="text" name="name">
+    <br>
+    <input type="submit" value="提交">
+</form>
+</body>
+</html>

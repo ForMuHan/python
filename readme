@@ -1,0 +1,11 @@
+1.创建app python manage.py startapp student
+2.将app添加到INSTALLED_APPS---setting文件
+3.修改数据库---setting文件
+4.mysql创建stdent数据库create database student;
+5.将sqllite改为mysql
+6.models文件创建model
+7.引入pymysql
+8.迁移文件 python manage.py makemigrations/python manage.py migrate
+9.admin文件注册管理信息 admin.site.register(Student)
+10.创建超级管理员 python manage.py createsuperuser(syw/syw)，可以通过修改LANGUAGE_CODE修改语言
+11.修改项目和app的url文件
